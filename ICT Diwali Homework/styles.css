@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-image: url(images/hero-bg1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 6rem;
+    color: #FFF;
+}
+
+section {
+    margin-left: 25rem;   
+    margin-top: 5rem; 
+}
+
+.section-title {
+    font-size: 4rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2176AE;
+    margin-bottom: 2rem;
+}
+
+.section-text,
+ul {
+    width: 70%;
+    font-size: 1.25rem;
+    letter-spacing: 1.6;
+    font-family: 'Raleway', sans-serif;
+    color: #942911;
+    font-weight: 300;
+}
+
+ul {
+    margin: 0;
+}
+
+video {
+    width: 640px;
+    height: 360px;
+}
+
+img {
+    width: 640px;
+    height: 360px;
+    margin-top: .25rem;
+}
+
+.section-title.sign-off {
+    font-size: 5rem;
+    width: 70%;
+}
